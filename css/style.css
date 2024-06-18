@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+:root{
+	--color-negro:#282d33;
+	--color-gris: #777;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+	--primary-color: #282d33;
+    --secondary-color: #777;
+    --font-family: 'Catamaran', sans-serif;
+}
+body{
+	margin: 0;
+    font-family: var(--font-family);
+    color: var(--color-gris);
+}
+
+header{
+	background-color: #fff;
+}
+
+.titulo{
+	color: #fff;
+	font-size: 70px;
+	font-weight: 700;
+}
+
+#hero-slides p{
+	font-weight: 200;
+}
+
+.boton-cta{
+	text-decoration: none;
+	color: var(--color-negro);
+	background-color: #fff;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 2% 5%;
+	border-radius: 50px;
+}
+
+.boton-cta:hover{
+	color: #fff;
+	background-color: var(--color-gris);
+}
+
+.icono-boton{
+	color: var(--color-negro);
+	font-weight: 14px;
+}
+
+.titulo-pequeno{
+	margin-top: 20px;
+	color: var(--color-negro);
+	font-size: 18px;
+}
+
+#intro {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+#services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+#cta{
+	background-image: url("../img/home-grid-banner.jpg");
+	background-size: cover;
+	background-position: top center;
+	background-repeat: none;
+	padding: 5%;
+	margin: 0 5%;
+	color: #fff;
+}
+
+#cta p{
+	margin-bottom: 5%;
+}
+
+#cta .titulo{
+	font-size: 50px;
+}
+
+#clients{
+	padding: 4% 0;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
